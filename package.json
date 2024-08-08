@@ -1,8 +1,9 @@
 {
-    "scripts": {
+  "type": "module",  
+  "scripts": {
       "lint": "eslint .",
       "check-lint": "eslint [0-9]*.js",
-      "dev": "babel-node src/index.js",
+      "dev": "npx babel-node",
       "test": "jest",
       "full-test": "eslint [0-9]*.js && jest"
     },
