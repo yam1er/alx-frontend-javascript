@@ -1,5 +1,4 @@
-{
-  "type": "module",  
+{  
   "scripts": {
       "lint": "eslint .",
       "check-lint": "eslint [0-9]*.js",
@@ -17,5 +16,5 @@
       "eslint-plugin-jest": "^26.5.0",
       "jest": "^29.2.1"
     }
-  }
+}
   
