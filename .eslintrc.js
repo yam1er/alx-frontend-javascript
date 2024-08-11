@@ -1,12 +1,13 @@
 module.exports = {
   env: {
+    'jest/globals': true,
     browser: false,
     es6: true,
     jest: true,
   },
   extends: [
     'airbnb-base',
-    'plugin:jest/all',
+    'plugin:jest/recommended',
   ],
   globals: {
     Atomics: 'readonly',
@@ -25,6 +26,7 @@ module.exports = {
       'LabeledStatement',
       'WithStatement',
     ],
+    'jest/require-hook': 'off',
   },
   overrides: [
     {
