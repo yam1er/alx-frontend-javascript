@@ -1,6 +1,7 @@
  {  
   
   "scripts": {
+      "type": "module",
       "lint": "eslint .",
       "check-lint": "eslint [0-9]*.js",
       "dev": "npx babel-node",
