@@ -1,5 +1,5 @@
  {  
-  
+  "type": "module",
   "scripts": {
       "type": "module",
       "lint": "eslint .",
